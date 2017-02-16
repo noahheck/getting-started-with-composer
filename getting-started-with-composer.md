@@ -8,7 +8,7 @@ https://getcomposer.org/
 
 (image used under MIT license by https://getcomposer.org)
 
-Composer is a tool for dependency management in PHP. It allows you to declare the libraries your project depends on and will manage (install / update) them for you. Composer manages packages on a per-project basis. Composer is cross platform - it strives for functionality on Windows, Linux and MacOS.
+Composer is a tool for dependency management in PHP. It allows you to declare the libraries your project depends on and will manage (install / update) them for you. Manages packages on a per-project basis. Cross platform - strives for functionality on Windows, Linux and MacOS.
 
 
 
@@ -52,6 +52,28 @@ Commit `composer.json` and `composer.lock` to vcs, but exclude `vendor` director
 
 
 
+### Updating Resources
+
+Update project dependencies:
+
+```
+php /path/to/composer update
+```
+
+Update Composer:
+
+```
+php /path/to/composer self-update
+```
+
+
+
+### Install vs. Update
+
+`install` command looks for `composer.lock` file and installs dependencies listed there if found - creates new `composer.lock` if not found. `update` installs latest versions of all dependencies and writes to `composer.lock`
+
+
+
 ### Using Package Resources
 
 `include`/`require` the generated `autoload.php` file in your application:
@@ -72,22 +94,6 @@ Add project files to Composer autoloader by adding `autoload` key in `composer.j
 
 
 
-### Updating Resources
-
-Update project dependencies:
-
-```
-php /path/to/composer update
-```
-
-Update Composer:
-
-```
-php /path/to/composer self-update
-```
-
-
-
 ### Finding packages
 
 Visit https://packagist.org/ to find packages
@@ -95,28 +101,12 @@ Visit https://packagist.org/ to find packages
 Use Composer to search for packages
 
 ```
-php /path/to/composer search [search string]
+php /path/to/composer search [search]
 ```
 
-
-
-### Composer Help
-
-List available commands:
-
-```
-php /path/to/composer list
-```
-
-Show help for command:
-
-```
-php /path/to/composer help [command]
-```
 
 
 ### Version constraints
-
 
 Rules for package versioning constraints: https://getcomposer.org/doc/articles/versions.md
 
