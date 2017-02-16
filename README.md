@@ -33,11 +33,9 @@ Targeting a single page will help ensure the scope of the project is kept in che
 
 The content of the project exists within the [repository file (getting-started-with-composer.md)](getting-started-with-composer.md). If new contributions are added, the content of the repository file will be entered into [LibreOffice](http://www.libreoffice.org/) Writer to generate the [OpenDocument text document](resources/GettingStartedWithComposer.odt) resource. The LibreOffice Writer *Export as PDF* feature will be used to generate the [PDF Document](resources/GettingStartedWithComposer.pdf) resource.
 
-##### Document Specifications
+### Document Specifications
 
-To ensure the resource content is contained in one page (see above), the following specifications will be used for formatting the OpenDocument text document resource:
-
-
+To ensure the resource content contained in one page provides the desired value (including readability and accessibility), a [specification for formatting of the OpenDocument text document resource](resource-formatting-specification.md) has been created. Updates to this work will follow the specification when updating the resources. *Note: like all things in this project, the spec is not considered final and can be adjusted as needed.*
 
 ---
 
