@@ -31,7 +31,7 @@ Targeting a single page will help ensure the scope of the project is kept in che
 
 ### Project
 
-The content of the project exists within the [repository file (getting-started-with-composer.md)](getting-started-with-composer.md). If new contributions are added, the content of the repository file will be entered into [LibreOffice](http://www.libreoffice.org/) Writer to generate the [OpenDocument text document](resources/getting-started-with-composer.odt) resource. The LibreOffice Writer *Export as PDF* feature will be used to generate the [PDF Document](resources/getting-started-with-composer.pdf) resource.
+The content of the project exists within the [repository file (getting-started-with-composer.md)](getting-started-with-composer.md). If new contributions are added, the content of the repository file will be entered into [LibreOffice](http://www.libreoffice.org/) Writer to generate the [OpenDocument text document](resources/GettingStartedWithComposer.odt) resource. The LibreOffice Writer *Export as PDF* feature will be used to generate the [PDF Document](resources/GettingStartedWithComposer.pdf) resource.
 
 ##### Document Specifications
 
